@@ -219,12 +219,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 # PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-# STATIC_URL = 'CompareX/'
-# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'build/CompareX')
-# ]
-# STATIC_ROOT = os.path.join(BASE_DIR,'CompareX')
+
+STATIC_URL = 'CompareX/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'CompareX')
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'..MEDIA/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
