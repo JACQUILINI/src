@@ -27,7 +27,7 @@ SECRET_KEY = config("Django_secret_Key", default='django-insecure-%xym-+)dm^6pl!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("django_debug", default=True, cast=bool)
 
-ALLOWED_HOSTS = ["comparexbackend.heroku.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
